@@ -11,8 +11,8 @@ import Nav from './Components/Nav';
       <div>
       <Router>
      <Nav/> 
-    
-      <Routes>
+     <News key='Home' pageSize={12} country='in' category='sports'/>
+      {/* <Routes>
       <Route exact path='/' element={<News key='Home' pageSize={12} country='in' category='sports'/>}></Route>
       <Route exact path='/Business' element={<News key='Business' pageSize={12} country='in' category='Business'/>}></Route>
       <Route exact path='/Entertainment' element={<News key='Entertainment' pageSize={12} country='in' category='Entertainment'/>}></Route>
@@ -21,7 +21,7 @@ import Nav from './Components/Nav';
       <Route exact path='/science' element={<News key='Science' pageSize={12} country='in' category='Science'/>}></Route>
       <Route exact path='/Sports' element={<News key='Sports' pageSize={12} country='in' category='Sports'/>}></Route>
       <Route exact path='/Technology' element={<News key='Technology' pageSize={12} country='in' category='Technology'/>}></Route>
-      </Routes>
+      </Routes> */}
       </Router>
       </div>
     )

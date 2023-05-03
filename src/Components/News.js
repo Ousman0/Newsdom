@@ -10,6 +10,7 @@ const News = (props) => {
   const [page, setpage] = useState(1);
   const [totalResults, settotalResults] = useState(0);
   // document.title = `${props.category}-Newsdom`;
+  // ousman
 
   const upDateNews = async () => {
     console.log("update hitted");
