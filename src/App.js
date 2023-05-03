@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from "react";
-import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
+// import {BrowserRouter as Router,Route, Routes} from "react-router-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import News from './Components/News';
 import Nav from './Components/Nav';
@@ -9,7 +9,7 @@ import Nav from './Components/Nav';
  const App=()=> {
     return (
       <div>
-      <Router>
+      {/* <Router> */}
      <Nav/> 
      <News key='Home' pageSize={12} country='in' category='sports'/>
       {/* <Routes>
@@ -22,7 +22,7 @@ import Nav from './Components/Nav';
       <Route exact path='/Sports' element={<News key='Sports' pageSize={12} country='in' category='Sports'/>}></Route>
       <Route exact path='/Technology' element={<News key='Technology' pageSize={12} country='in' category='Technology'/>}></Route>
       </Routes> */}
-      </Router>
+      {/* </Router> */}
       </div>
     )
   
